@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jul 16 13:13:20 2025
+# Process ID: 9628
+# Current directory: C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1/Main.vds
+# Journal file: C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1\vivado.jou
+# Running On: Marian, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16776 MB
+#-----------------------------------------------------------
+source Main.tcl -notrace

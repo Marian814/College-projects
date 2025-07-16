@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jul 16 13:13:20 2025
+# Process ID: 9628
+# Current directory: C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1/Main.vds
+# Journal file: C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1\vivado.jou
+# Running On: Marian, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16776 MB
+#-----------------------------------------------------------
+source Main.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 377.598 ; gain = 67.473
+Command: synth_design -top Main -part xc7a100ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14380
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1202.301 ; gain = 407.812
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:18]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/MPG.vhd:6' bound to instance 'MPG_UP' of component 'MPG' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'MPG' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/MPG.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (0#1) [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/MPG.vhd:12]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/MPG.vhd:6' bound to instance 'MPG_DOWN' of component 'MPG' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:58]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/MPG.vhd:6' bound to instance 'MPG_ADAUGA' of component 'MPG' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:62]
+INFO: [Synth 8-3491] module 'Unitate_control' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:6' bound to instance 'UC' of component 'Unitate_control' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'Unitate_control' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:16]
+WARNING: [Synth 8-614] signal 'cod_introdus_intermediar' is read in the process but is not in the sensitivity list [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:42]
+WARNING: [Synth 8-614] signal 'cod_verificare_intermediar' is read in the process but is not in the sensitivity list [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Unitate_control' (0#1) [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:16]
+INFO: [Synth 8-3491] module 'Unitate_executie' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_executie.vhd:6' bound to instance 'UE' of component 'Unitate_executie' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'Unitate_executie' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_executie.vhd:18]
+INFO: [Synth 8-3491] module 'Counter' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Counter.vhd:7' bound to instance 'COUNT' of component 'Counter' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_executie.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Counter' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Counter.vhd:16]
+WARNING: [Synth 8-614] signal 'counter' is read in the process but is not in the sensitivity list [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Counter.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Counter' (0#1) [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Counter.vhd:16]
+INFO: [Synth 8-3491] module 'Seven_Segment' declared at 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Seven_Segment.vhd:6' bound to instance 'DISPLAY' of component 'Seven_Segment' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_executie.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'Seven_Segment' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Seven_Segment.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Seven_Segment' (0#1) [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Seven_Segment.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Unitate_executie' (0#1) [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_executie.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Main' (0#1) [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Main.vhd:18]
+WARNING: [Synth 8-7129] Port adauga_cifra in module Counter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1292.328 ; gain = 497.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1292.328 ; gain = 497.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1292.328 ; gain = 497.840
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1292.328 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/NexysA7_test_env.xdc]
+Finished Parsing XDC File [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/NexysA7_test_env.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/NexysA7_test_env.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1344.914 ; gain = 0.000
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'Stare_reg' in module 'Unitate_control'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_Nx_Stare_reg' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:38]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_Nx_Stare_reg' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:38]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   liber |                        000000001 |                             0000
+      astept_caracterul1 |                        000000010 |                             0001
+      astept_caracterul2 |                        000000100 |                             0010
+      astept_caracterul3 |                        000001000 |                             0011
+                  ocupat |                        000010000 |                             0100
+ocupat_astept_caracterul1 |                        000100000 |                             0101
+ocupat_astept_caracterul2 |                        001000000 |                             0110
+ocupat_astept_caracterul3 |                        010000000 |                             0111
+          verificare_cod |                        100000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Stare_reg' using encoding 'one-hot' in module 'Unitate_control'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_Nx_Stare_reg' [C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.srcs/sources_1/new/Unitate_control.vhd:38]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   9 Input   12 Bit        Muxes := 3     
+	   9 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 9     
+	   9 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design Main has port anod[3] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     4|
+|4     |LUT2   |     2|
+|5     |LUT3   |     8|
+|6     |LUT4   |    19|
+|7     |LUT5   |     8|
+|8     |LUT6   |    21|
+|9     |FDCE   |    12|
+|10    |FDPE   |     1|
+|11    |FDRE   |    80|
+|12    |LD     |     9|
+|13    |IBUF   |     5|
+|14    |OBUF   |    13|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1344.914 ; gain = 497.840
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.914 ; gain = 550.426
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1344.914 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LD => LDCE: 9 instances
+
+Synth Design complete, checksum: aff80b03
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 1344.914 ; gain = 967.316
+INFO: [Common 17-1381] The checkpoint 'C:/Laptop/MyProjects/CollegeProjects/Project2_VHDL/Locker/Locker/Locker.runs/synth_1/Main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_utilization_synth.rpt -pb Main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 16 13:13:59 2025...
